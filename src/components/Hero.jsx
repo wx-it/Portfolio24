@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="p-4 md:px-12 lg:px-[90px] md:h-screen">
       <span className="text-xl">{`I'm a`}</span>
       <h1 className="font-bold text-5xl md:text-7xl lg:text-9xl ">
-        Web Developer
+        Frontend Web Developer
       </h1>
       <div className="flex items-center justify-start space-x-1 mt-2">
         <span className="bg-[#1D1D1D] w-6 h-6 rounded-full lg:w-8 lg:h-8"></span>

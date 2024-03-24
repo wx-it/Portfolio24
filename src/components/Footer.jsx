@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="p-4 lg:px-[100px] space-y-8">
+    <footer className="p-4 lg:px-[100px] space-y-8 lg:space-y-[15rem]">
       <div className=" space-y-4 md:flex md:items-center justify-center lg:items-start lg:space-x-16">
         <h2 className="font-bold text-2xl lg:text-5xl lg:max-w-[50%]">
           Struggling to generate leads and convert website visitors into paying
