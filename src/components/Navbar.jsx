@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link className=" text-lg" href={"/"}>
             Projects
           </Link>
-          <Link className=" text-lg" href={"/"}>
+          <Link className=" text-lg" href={"/services"}>
             Services
           </Link>
           <Link className=" text-lg" href={"/"}>
