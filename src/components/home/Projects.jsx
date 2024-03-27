@@ -1,11 +1,21 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-//className=" space-y-6 pb-[50%] lg:px-[90px] "
+import { motion } from "framer-motion";
 const Projects = () => {
   return (
     <div className="h-full flex flex-col items-center justify-center p-6 md:pb-[20rem] space-y-4">
-      <div className="group relative h-[90vh] w-[90vw] p-3 md:p-8">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 50,
+          restDelta: 0.001,
+        }}
+        className="group relative h-[90vh] w-[90vw] p-3 md:p-8"
+      >
         <Link
           href=""
           className="hidden absolute right-[30%] top-[25%] cursor-pointer bg-white rounded-full w-[150px] h-[150px] opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-[.5s]  md:flex items-center justify-center p-12 text-center text-xl font-medium"
@@ -36,8 +46,17 @@ const Projects = () => {
             high-performing assets that drive results.
           </p>
         </div>
-      </div>
-      <div className="group relative h-[90vh] w-[90vw] p-3 md:p-8">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 50,
+          restDelta: 0.001,
+        }}
+        className="group relative h-[90vh] w-[90vw] p-3 md:p-8"
+      >
         <Link
           href=""
           className="hidden absolute right-[30%] top-[25%] cursor-pointer bg-white rounded-full w-[150px] h-[150px] opacity-0 group-hover:opacity-100 transition-opacity ease-in duration-[.5s]  md:flex items-center justify-center p-12 text-center text-xl font-medium"
@@ -68,7 +87,7 @@ const Projects = () => {
             high-performing assets that drive results.
           </p>
         </div>
-      </div>
+      </motion.div>
       {/* <h2 className="font-bold text-base px-4 lg:px-0 lg:text-2xl lg:font-medium">
         Projects
       </h2>

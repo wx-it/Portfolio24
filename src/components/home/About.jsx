@@ -1,4 +1,6 @@
+"use client";
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -8,11 +10,20 @@ const About = () => {
         <span className="hidden lg:inline text-xl font-medium mr-[6rem]">
           About me
         </span>
-        <p className="inline font-medium text-base leading-6 tracking-wide md:text-xl lg:text-5xl lg:leading-[136%]">
+        <motion.p
+          initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0, }}
+          transition={{
+            type: "spring",
+            stiffness: 100,
+            restDelta: 0.001,
+          }}
+          className="inline font-medium text-base leading-6 tracking-wide md:text-xl lg:text-5xl lg:leading-[136%]"
+        >
           As a passionate frontend web developer, I specialize in helping
           businesses transform their landing pages and websites into high
           performing assets that drive results.
-        </p>
+        </motion.p>
       </div>
     </div>
   );
