@@ -6,8 +6,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Portfolio",
+  title: "Zineb | Frontend Developer",
   description: "Personal web developer portfolio",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
