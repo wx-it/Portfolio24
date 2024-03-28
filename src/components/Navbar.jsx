@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between w-full p-4 md:py-8 lg:px-[90px] md:px-12 ">
       <div className="z-20 flex justify-between w-full items-center">
         <Link href={"/"}>
-          <Image src="/logo.jpg" width={24} height={44} alt="logo" />
+          <Image src="/logo.png" width={24} height={44} alt="logo" />
         </Link>
         <span className="md:hidden">
           <Hamburger
