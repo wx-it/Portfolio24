@@ -35,7 +35,6 @@ const Hero = () => {
           Developer
         </motion.h1>
       </div>
-
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: 0 }}
@@ -47,9 +46,9 @@ const Hero = () => {
         }}
         className="flex items-center justify-start space-x-1 md:space-x-3 mt-2 lg:mt-5"
       >
-        <span className="bg-[#1D1D1D] w-6 h-6 rounded-full lg:w-8 lg:h-8"></span>
-        <p className="text-xl font-medium lg:text-3xl md:tracking-wider">
-          I specialize in optimizing generic
+        <span className="bg-[#1D1D1D] hidden md:block md:w-6 md:h-6 rounded-full lg:w-8 lg:h-8"></span>
+        <p className="text-xl font-medium lg:text-3xl md:tracking-wider w-full">
+          I design landing pages that turn clicks
         </p>
       </motion.div>
       <motion.p
@@ -61,25 +60,27 @@ const Hero = () => {
           restDelta: 0.001,
           duration: 350,
         }}
-        className="text-xl font-medium lg:text-3xl md:tracking-wider"
+        className="text-xl font-medium lg:text-3xl md:tracking-wider w-full"
       >
-        landing pages for maximum impact.
+        into customers – like magic, but with code.
       </motion.p>
-      <motion.button
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{
-          type: "spring",
-          stiffness: 20,
-          restDelta: 0.001,
-        }}
-        className="group relative overflow-hidden  border border-black rounded-full px-4 py-3 font-medium text-base mt-4 lg:text-2xl lg:py-4 lg:px-6"
-      >
-        Book your free consultation
-        <span className="absolute bottom-0 left-0 bg-black text-white w-full h-full px-4 py-3 font-medium text-base lg:text-2xl lg:px-6 lg:p-4 rounded-full translate-y-full transition-transform ease-in duration-[.5s] group-hover:translate-y-0">
-          Contact
-        </span>
-      </motion.button>
+      <a href="mailto:bendjafer.zineb70@gmail.com">
+        <motion.button
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 20,
+            restDelta: 0.001,
+          }}
+          className="group relative overflow-hidden  border border-black rounded-full px-4 py-3 font-medium text-base mt-4 lg:text-2xl lg:py-4 lg:px-6"
+        >
+          Get In Touch With Me
+          <span className="absolute bottom-0 left-0 bg-black text-white w-full h-full px-4 py-3 font-medium text-base lg:text-2xl lg:px-6 lg:p-4 rounded-full translate-y-full transition-transform ease-in duration-[.5s] group-hover:translate-y-0">
+            Contact
+          </span>
+        </motion.button>
+      </a>
     </div>
   );
 };

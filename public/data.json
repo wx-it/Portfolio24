@@ -1,5 +1,17 @@
 [
   {
+    "id": 4,
+    "title": "Landing Page Development",
+    "description": "I build the technical foundation of your landing page, from choosing the platform to ensuring flawless mobile responsiveness.  Think of it as constructing a user-friendly online storefront for your specific offer."
+  },
+
+  {
+    "id": 3,
+    "title": "Mobile-First Design Enhancements",
+    "description": "Tailor your website for mobile users, emphasizing a mobile-first design approach. Enhance navigation, readability, and functionality for users on smartphones and tablets."
+  },
+  
+  {
     "id": 1,
     "title": "Image and File Compression",
     "description": "Employ state-of-the-art compression techniques to reduce file sizes without compromising quality, resulting in faster load times and a smoother user experience."
@@ -7,17 +19,7 @@
 
   {
     "id": 2,
-    "title": "Script Optimization",
-    "description": "Streamline and optimize scripts to minimize render-blocking and enhance the overall performance of your website. Prioritize critical scripts to ensure a faster initial load."
-  },
-  {
-    "id": 3,
-    "title": "Mobile-First Design Enhancements",
-    "description": "Tailor your website for mobile users, emphasizing a mobile-first design approach. Enhance navigation, readability, and functionality for users on smartphones and tablets."
-  },
-  {
-    "id": 4,
-    "title": "SEO-Friendly Coding",
-    "description": "Optimize your website's code for search engines, improving visibility and driving organic traffic. Ensure that your site follows best practices for SEO-friendly coding."
+    "title": "Layout and Design",
+    "description": "This is the visual magic that transforms your landing page. I craft an appealing design with a clear hierarchy, guiding users towards the desired action."
   }
 ]
