@@ -14,6 +14,9 @@ const Services = () => {
           restDelta: 0.001,
           duration: 350,
         }}
+        viewport={{
+          once: true,
+        }}
         className="font-bold lg:text-7xl border-b py-4 border-b-[#7d7d7d] md:py-8"
       >
         SERVICES
@@ -32,6 +35,9 @@ const Services = () => {
               restDelta: 0.001,
               duration: 350,
             }}
+            viewport={{
+              once: true,
+            }}
             className="font-bold lg:text-4xl md:w-full md:max-w-[40%]"
           >
             {service.title}
@@ -44,6 +50,9 @@ const Services = () => {
               stiffness: 50,
               restDelta: 0.001,
               duration: 350,
+            }}
+            viewport={{
+              once: true,
             }}
             className="text-sm text-[#1d1d1d] md:text-base lg:text-3xl md:w-full md:max-w-[50%] md:font-medium md:px-4"
           >

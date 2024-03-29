@@ -17,6 +17,9 @@ const Projects = () => {
           stiffness: 50,
           restDelta: 0.001,
         }}
+        viewport={{
+          once: true,
+        }}
         className="group relative h-[90vh] w-[90vw] p-3 md:p-8"
       >
         <Link
@@ -58,6 +61,9 @@ const Projects = () => {
           type: "spring",
           stiffness: 50,
           restDelta: 0.001,
+        }}
+        viewport={{
+          once: true,
         }}
         className="group relative h-[90vh] w-[90vw] p-3 md:p-8"
       >

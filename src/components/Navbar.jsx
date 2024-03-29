@@ -46,8 +46,8 @@ const Navbar = () => {
       <div
         className={
           isOpen
-            ? "fixed right-0 top-0 flex flex-col items-center justify-center h-full w-full bg-[#EBEBEB] z-10 space-y-6 translate-y-0 ease-linear duration-1000"
-            : "fixed right-0 top-0 flex flex-col items-center justify-center h-full w-full bg-[#EBEBEB] z-10 space-y-6 translate-y-full ease-linear duration-1000"
+            ? "md:hidden fixed right-0 top-0 flex flex-col items-center justify-center h-full w-full bg-[#EBEBEB] z-10 space-y-6 translate-y-0 ease-linear duration-1000"
+            : "md:hidden fixed right-0 top-0 flex flex-col items-center justify-center h-full w-full bg-[#EBEBEB] z-10 space-y-6 translate-y-full ease-linear duration-1000"
         }
       >
         <Link

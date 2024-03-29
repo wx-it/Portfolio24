@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="p-4 md:px-12 lg:px-[90px] md:h-screen overflow-hidden">
+    <div className="p-4 md:px-12 lg:px-[90px] overflow-hidden">
       <span className="text-xl">{`I'm a`}</span>
       <div className="overflow-hidden">
         <motion.h1

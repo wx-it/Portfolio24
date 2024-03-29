@@ -12,11 +12,14 @@ const About = () => {
         </span>
         <motion.p
           initial={{ opacity: 0, y: 200 }}
-          whileInView={{ opacity: 1, y: 0, }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             type: "spring",
             stiffness: 30,
             restDelta: 0.001,
+          }}
+          viewport={{
+            once: true,
           }}
           className="inline font-medium text-base leading-6 tracking-wide md:text-xl lg:text-5xl lg:leading-[136%]"
         >

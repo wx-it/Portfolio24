@@ -25,6 +25,9 @@ const Footer = () => {
             stiffness: 50,
             restDelta: 0.001,
           }}
+          viewport={{
+            once: true,
+          }}
           className="font-bold text-2xl lg:text-5xl lg:max-w-[60%]"
         >
           Seeking a web developer who crafts impactful landing pages and user
@@ -39,6 +42,9 @@ const Footer = () => {
               stiffness: 50,
               restDelta: 0.001,
             }}
+            viewport={{
+              once: true,
+            }}
             className="font-semibold text-base lg:text-2xl"
           >
             {`Let's chat about your next project! I'm always happy to connect and
@@ -51,6 +57,9 @@ const Footer = () => {
               type: "spring",
               stiffness: 50,
               restDelta: 0.001,
+            }}
+            viewport={{
+              once: true,
             }}
             className="flex items-center justify-start space-x-1 group"
           >
